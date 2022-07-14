@@ -10,6 +10,8 @@
     - python extractfromjson.py
 ## Project annotation
 
+LT3 webanno project code : EventDNA_2.0_event_sentiment_960SENT
+
 Annotation of event spans, and labeling event prominence and sentiment labels, as specified in attached guidelines.
 1. Prominence event labels
   - Main : reason why author wrote article
