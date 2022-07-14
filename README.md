@@ -1,9 +1,18 @@
 # webanno_annotation_file_processing_2022
 
+## processing of input json file to separate text files for webanno input
+
+1. Root folder json_file_for_webanno:
+  - subfolder sentence-splitter cloned from https://github.com/mediacloud/sentence-splitter
+  - sample.json : input example file
+  - zipped example output in output_files_for_webanno_annot.zip
+  - script and syntax to convert sample.json file to separate webanno input files:
+    - python extractfromjson.py
+  
 ## processing of exported .json files to readable .json files
 folder process_json with subfolders:
 
-1. Root folder
+1. Root folder process_json
    - script *main.py* 
      - with syntax: *python main.py*
        - reads input folders *extracted_annotations*, generates output folders with content *extracted_annotations_out_example*
