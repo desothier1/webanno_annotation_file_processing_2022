@@ -8,6 +8,17 @@
   - zipped example output in output_files_for_webanno_annot.zip
   - script and syntax to convert sample.json file to separate webanno input files:
     - python extractfromjson.py
+    
+## unzip and extract annotated files from webanno project   
+1. unzip folder contents:
+  - after annotation of the project, export the project, which results in a zipped folder with the annotations.
+  - zipped webanno annotation project *EventDNA_2_project_2022-05-16_1150.zip*
+  - script *unzipper.py*
+    - syntax *python unzipper.py*
+      - specify in script absolute path of 'annotation' folder from input zipped file (folder_root=)
+      - specify in script absolute path of output folder (folder_root_min=) and outputfolder name (directory= )
+      
+   
   
 ## processing of exported .json files to readable .json files
 folder process_json with subfolders:
