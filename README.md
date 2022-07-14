@@ -10,6 +10,8 @@
     - python extractfromjson.py
 ## Project annotation
 
+Annotation of event spans, and labeling event prominence and sentiment labels. 
+
 ![bisexamp1](https://user-images.githubusercontent.com/50878643/179030034-9fc4adbe-095d-4fa0-909e-c8c3eff9b857.png)
 
 
