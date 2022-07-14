@@ -16,7 +16,7 @@ Annotation of event spans, and labeling event prominence and sentiment labels, a
   - Background : more info about Main event.
   - None : raw sentence without event
 
-2 Sentiment labels;;
+2. Sentiment labels;;
   - Positive
   - Negative
   - Neutral
