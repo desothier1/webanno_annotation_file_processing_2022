@@ -10,11 +10,11 @@
     - python extractfromjson.py
 ## Project annotation
 
-Annotation of event spans, and labeling event prominence and sentiment labels. 
+Annotation of event spans, and labeling event prominence and sentiment labels, as specified in attached guidelines.
 
 ![bisexamp1](https://user-images.githubusercontent.com/50878643/179030034-9fc4adbe-095d-4fa0-909e-c8c3eff9b857.png)
 
-
+[08042022_gettingstarted_webanno_TD.pdf](https://github.com/desothier1/webanno_annotation_file_processing_2022/files/9113576/08042022_gettingstarted_webanno_TD.pdf)
 [eventdna_guidelines_v2_0.pdf](https://github.com/desothier1/webanno_annotation_file_processing_2022/files/9113466/eventdna_guidelines_v2_0.pdf)
     
 ## unzip and extract annotated files from webanno project   
