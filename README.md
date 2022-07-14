@@ -1,3 +1,4 @@
+[eventdna_guidelines_v2_0.pdf](https://github.com/desothier1/webanno_annotation_file_processing_2022/files/9113466/eventdna_guidelines_v2_0.pdf)
 # webanno_annotation_file_processing_2022
 
 ## processing of input json file to separate text files for webanno input
