@@ -1,4 +1,3 @@
-[eventdna_guidelines_v2_0.pdf](https://github.com/desothier1/webanno_annotation_file_processing_2022/files/9113466/eventdna_guidelines_v2_0.pdf)
 # webanno_annotation_file_processing_2022
 
 ## processing of input json file to separate text files for webanno input
@@ -9,6 +8,12 @@
   - zipped example output in output_files_for_webanno_annot.zip
   - script and syntax to convert sample.json file to separate webanno input files:
     - python extractfromjson.py
+## Project annotation
+
+![bisexamp1](https://user-images.githubusercontent.com/50878643/179030034-9fc4adbe-095d-4fa0-909e-c8c3eff9b857.png)
+
+
+[eventdna_guidelines_v2_0.pdf](https://github.com/desothier1/webanno_annotation_file_processing_2022/files/9113466/eventdna_guidelines_v2_0.pdf)
     
 ## unzip and extract annotated files from webanno project   
 1. unzip folder contents:
@@ -39,7 +44,7 @@ folder process_json with subfolders:
 
 3. Folder extracted_annotations : 
    - 10 example exported annotated .json files 
-   - as input files to be processed for generating more readable format
+   - as input files to be processed for generating more readable format  
    
 4. Folder extracted_annotations_out_example :
    - 10 example output files in readable format
