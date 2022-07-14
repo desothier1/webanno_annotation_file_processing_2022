@@ -1,0 +1,71 @@
+{"_context" : {
+    "_types" : {
+      "DocumentMetaData" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Eventclauses" : {
+        "_feature_types" : {"sofa" : "_ref",  "Arguments" : "_ref",  "Polarity" : "_ref",  "PolarityTrigger" : "_ref",  "Sameclause" : "_ref" } }, 
+      "Sentence" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Sofa" : {
+        "_feature_types" : {"sofaArray" : "_ref" } }, 
+      "TagsetDescription" : {
+        "_feature_types" : {"sofa" : "_ref",  "tags" : "_ref" } }, 
+      "Token" : {
+        "_feature_types" : {"sofa" : "_ref",  "parent" : "_ref",  "lemma" : "_ref",  "stem" : "_ref",  "pos" : "_ref",  "morph" : "_ref",  "form" : "_ref" } }, 
+      "DocumentAnnotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentMetaData" ] }, 
+      "Annotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentAnnotation",  "Eventclauses",  "Sentence",  "TagsetDescription",  "Token" ] }, 
+      "AnnotationBase" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Annotation" ] }, 
+      "TOP" : {
+        "_subtypes" : ["AnnotationBase",  "Sofa" ] } } }, 
+  "_views" : {
+    "_InitialView" : {
+      "DocumentMetaData" : [
+        {"sofa" : 12,  "end" : 169,  "language" : "x-unspecified",  "documentTitle" : "3db6526.txt",  "documentId" : "WoutBoven",  "documentUri" : "file:/export/repository/project/114/document/44473/source/WoutBoven",  "collectionId" : "file:/export/repository/project/114/document/44473/source/",  "documentBaseUri" : "file:/export/repository/project/114/document/44473/source/",  "isLastSegment" : false } ], 
+      "TagsetDescription" : [
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "name" : "UD Universal Dependencies",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Entities",  "name" : "Entity - mention level types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Eventclauses",  "name" : "Event - tense",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Eventsarguments",  "name" : "eventdna_argument_entities_(auto)",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Namedentities",  "name" : "NE types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.EntitiesLETSpreanno",  "name" : "Named entity - types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "name" : "Operation",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "name" : "UD Universal POS tags",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Polaritytriggers",  "name" : "Polarity",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.SurfaceForm",  "name" : "Named Entity tags",  "input" : false } ], 
+      "Sentence" : [
+        {"sofa" : 12,  "end" : 43 }, 
+        {"sofa" : 12,  "begin" : 45,  "end" : 167 } ], 
+      "Token" : [
+        {"sofa" : 12,  "end" : 12 }, 
+        {"sofa" : 12,  "begin" : 13,  "end" : 20 }, 
+        {"sofa" : 12,  "begin" : 21,  "end" : 29 }, 
+        {"sofa" : 12,  "begin" : 30,  "end" : 43 }, 
+        {"sofa" : 12,  "begin" : 45,  "end" : 49 }, 
+        {"sofa" : 12,  "begin" : 50,  "end" : 52 }, 
+        {"sofa" : 12,  "begin" : 53,  "end" : 62 }, 
+        {"sofa" : 12,  "begin" : 63,  "end" : 76 }, 
+        {"sofa" : 12,  "begin" : 77,  "end" : 80 }, 
+        {"sofa" : 12,  "begin" : 81,  "end" : 83 }, 
+        {"sofa" : 12,  "begin" : 84,  "end" : 96 }, 
+        {"sofa" : 12,  "begin" : 97,  "end" : 100 }, 
+        {"sofa" : 12,  "begin" : 101,  "end" : 103 }, 
+        {"sofa" : 12,  "begin" : 104,  "end" : 112 }, 
+        {"sofa" : 12,  "begin" : 113,  "end" : 120 }, 
+        {"sofa" : 12,  "begin" : 121,  "end" : 124 }, 
+        {"sofa" : 12,  "begin" : 125,  "end" : 128 }, 
+        {"sofa" : 12,  "begin" : 129,  "end" : 144 }, 
+        {"sofa" : 12,  "begin" : 145,  "end" : 158 }, 
+        {"sofa" : 12,  "begin" : 159,  "end" : 165 }, 
+        {"sofa" : 12,  "begin" : 166,  "end" : 167 } ], 
+      "Eventclauses" : [
+        {"sofa" : 12,  "end" : 43,  "EventPolarity" : "EVE neutral",  "Prominence" : "Main" }, 
+        {"sofa" : 12,  "begin" : 53,  "end" : 76,  "EventPolarity" : "EVE negative",  "Prominence" : "Background" }, 
+        {"sofa" : 12,  "begin" : 81,  "end" : 165,  "EventPolarity" : "EVE neutral",  "Prominence" : "Main" } ] } }, 
+  "_referenced_fss" : {
+    "12" : {"_type" : "Sofa",  "sofaNum" : 1,  "sofaID" : "_InitialView",  "mimeType" : "text",  "sofaString" : "Gemeenteraad opnieuw digitaal georganiseerd\n Door de stijgende coronacijfers zal de gemeenteraad van 24 november opnieuw via een videoverbinding georganiseerd worden .\n " } } }

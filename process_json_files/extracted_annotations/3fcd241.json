@@ -1,0 +1,94 @@
+{"_context" : {
+    "_types" : {
+      "DocumentMetaData" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Eventclauses" : {
+        "_feature_types" : {"sofa" : "_ref",  "Arguments" : "_ref",  "Polarity" : "_ref",  "PolarityTrigger" : "_ref",  "Sameclause" : "_ref" } }, 
+      "Sentence" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Sofa" : {
+        "_feature_types" : {"sofaArray" : "_ref" } }, 
+      "TagsetDescription" : {
+        "_feature_types" : {"sofa" : "_ref",  "tags" : "_ref" } }, 
+      "Token" : {
+        "_feature_types" : {"sofa" : "_ref",  "parent" : "_ref",  "lemma" : "_ref",  "stem" : "_ref",  "pos" : "_ref",  "morph" : "_ref",  "form" : "_ref" } }, 
+      "DocumentAnnotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentMetaData" ] }, 
+      "Annotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentAnnotation",  "Eventclauses",  "Sentence",  "TagsetDescription",  "Token" ] }, 
+      "AnnotationBase" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Annotation" ] }, 
+      "TOP" : {
+        "_subtypes" : ["AnnotationBase",  "Sofa" ] } } }, 
+  "_views" : {
+    "_InitialView" : {
+      "DocumentMetaData" : [
+        {"sofa" : 12,  "end" : 264,  "language" : "x-unspecified",  "documentTitle" : "3fcd241.txt",  "documentId" : "WoutBoven",  "documentUri" : "file:/export/repository/project/114/document/44471/source/WoutBoven",  "collectionId" : "file:/export/repository/project/114/document/44471/source/",  "documentBaseUri" : "file:/export/repository/project/114/document/44471/source/",  "isLastSegment" : false } ], 
+      "TagsetDescription" : [
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "name" : "UD Universal Dependencies",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Entities",  "name" : "Entity - mention level types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Eventclauses",  "name" : "Event - tense",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Eventsarguments",  "name" : "eventdna_argument_entities_(auto)",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Namedentities",  "name" : "NE types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.EntitiesLETSpreanno",  "name" : "Named entity - types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "name" : "Operation",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "name" : "UD Universal POS tags",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Polaritytriggers",  "name" : "Polarity",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.SurfaceForm",  "name" : "Named Entity tags",  "input" : false } ], 
+      "Sentence" : [
+        {"sofa" : 12,  "end" : 84 }, 
+        {"sofa" : 12,  "begin" : 86,  "end" : 152 }, 
+        {"sofa" : 12,  "begin" : 154,  "end" : 262 } ], 
+      "Token" : [
+        {"sofa" : 12,  "end" : 11 }, 
+        {"sofa" : 12,  "begin" : 12,  "end" : 14 }, 
+        {"sofa" : 12,  "begin" : 15,  "end" : 19 }, 
+        {"sofa" : 12,  "begin" : 20,  "end" : 27 }, 
+        {"sofa" : 12,  "begin" : 28,  "end" : 33 }, 
+        {"sofa" : 12,  "begin" : 34,  "end" : 35 }, 
+        {"sofa" : 12,  "begin" : 36,  "end" : 44 }, 
+        {"sofa" : 12,  "begin" : 45,  "end" : 48 }, 
+        {"sofa" : 12,  "begin" : 49,  "end" : 55 }, 
+        {"sofa" : 12,  "begin" : 56,  "end" : 64 }, 
+        {"sofa" : 12,  "begin" : 65,  "end" : 67 }, 
+        {"sofa" : 12,  "begin" : 68,  "end" : 84 }, 
+        {"sofa" : 12,  "begin" : 86,  "end" : 97 }, 
+        {"sofa" : 12,  "begin" : 98,  "end" : 103 }, 
+        {"sofa" : 12,  "begin" : 104,  "end" : 107 }, 
+        {"sofa" : 12,  "begin" : 108,  "end" : 113 }, 
+        {"sofa" : 12,  "begin" : 114,  "end" : 122 }, 
+        {"sofa" : 12,  "begin" : 123,  "end" : 124 }, 
+        {"sofa" : 12,  "begin" : 125,  "end" : 128 }, 
+        {"sofa" : 12,  "begin" : 129,  "end" : 131 }, 
+        {"sofa" : 12,  "begin" : 132,  "end" : 136 }, 
+        {"sofa" : 12,  "begin" : 137,  "end" : 144 }, 
+        {"sofa" : 12,  "begin" : 145,  "end" : 150 }, 
+        {"sofa" : 12,  "begin" : 151,  "end" : 152 }, 
+        {"sofa" : 12,  "begin" : 154,  "end" : 156 }, 
+        {"sofa" : 12,  "begin" : 157,  "end" : 165 }, 
+        {"sofa" : 12,  "begin" : 166,  "end" : 177 }, 
+        {"sofa" : 12,  "begin" : 178,  "end" : 182 }, 
+        {"sofa" : 12,  "begin" : 183,  "end" : 185 }, 
+        {"sofa" : 12,  "begin" : 186,  "end" : 199 }, 
+        {"sofa" : 12,  "begin" : 200,  "end" : 206 }, 
+        {"sofa" : 12,  "begin" : 207,  "end" : 208 }, 
+        {"sofa" : 12,  "begin" : 209,  "end" : 211 }, 
+        {"sofa" : 12,  "begin" : 212,  "end" : 223 }, 
+        {"sofa" : 12,  "begin" : 224,  "end" : 228 }, 
+        {"sofa" : 12,  "begin" : 229,  "end" : 234 }, 
+        {"sofa" : 12,  "begin" : 235,  "end" : 239 }, 
+        {"sofa" : 12,  "begin" : 240,  "end" : 243 }, 
+        {"sofa" : 12,  "begin" : 244,  "end" : 260 }, 
+        {"sofa" : 12,  "begin" : 261,  "end" : 262 } ], 
+      "Eventclauses" : [
+        {"sofa" : 12,  "end" : 33,  "EventPolarity" : "EVE negative",  "Prominence" : "Background" }, 
+        {"sofa" : 12,  "begin" : 36,  "end" : 84,  "EventPolarity" : "EVE neutral",  "Prominence" : "Main" }, 
+        {"sofa" : 12,  "begin" : 86,  "end" : 122,  "EventPolarity" : "EVE negative",  "Prominence" : "Background" }, 
+        {"sofa" : 12,  "begin" : 125,  "end" : 150,  "EventPolarity" : "EVE negative",  "Prominence" : "Background" }, 
+        {"sofa" : 12,  "begin" : 154,  "end" : 206,  "EventPolarity" : "EVE positive",  "Prominence" : "Main" }, 
+        {"sofa" : 12,  "begin" : 212,  "end" : 260,  "EventPolarity" : "EVE neutral",  "Prominence" : "Main" } ] } }, 
+  "_referenced_fss" : {
+    "12" : {"_type" : "Sofa",  "sofaNum" : 1,  "sofaID" : "_InitialView",  "mimeType" : "text",  "sofaString" : "Sinterklaas is zijn helpers kwijt : Bornemse bib stuurt kinderen op Pietjeszoektocht\n Sinterklaas heeft een groot probleem : hij is zijn helpers kwijt .\n De Bornemse bibliotheek gaat de goedheiligman helpen , en organiseert drie weken lang een Pietjeszoektocht .\n " } } }

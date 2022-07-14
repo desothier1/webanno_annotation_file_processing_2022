@@ -1,0 +1,66 @@
+{"_context" : {
+    "_types" : {
+      "DocumentMetaData" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Eventclauses" : {
+        "_feature_types" : {"sofa" : "_ref",  "Arguments" : "_ref",  "Polarity" : "_ref",  "PolarityTrigger" : "_ref",  "Sameclause" : "_ref" } }, 
+      "Sentence" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Sofa" : {
+        "_feature_types" : {"sofaArray" : "_ref" } }, 
+      "TagsetDescription" : {
+        "_feature_types" : {"sofa" : "_ref",  "tags" : "_ref" } }, 
+      "Token" : {
+        "_feature_types" : {"sofa" : "_ref",  "parent" : "_ref",  "lemma" : "_ref",  "stem" : "_ref",  "pos" : "_ref",  "morph" : "_ref",  "form" : "_ref" } }, 
+      "DocumentAnnotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentMetaData" ] }, 
+      "Annotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentAnnotation",  "Eventclauses",  "Sentence",  "TagsetDescription",  "Token" ] }, 
+      "AnnotationBase" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Annotation" ] }, 
+      "TOP" : {
+        "_subtypes" : ["AnnotationBase",  "Sofa" ] } } }, 
+  "_views" : {
+    "_InitialView" : {
+      "DocumentMetaData" : [
+        {"sofa" : 12,  "end" : 141,  "language" : "x-unspecified",  "documentTitle" : "3f1e325.txt",  "documentId" : "WoutBoven",  "documentUri" : "file:/export/repository/project/114/document/44472/source/WoutBoven",  "collectionId" : "file:/export/repository/project/114/document/44472/source/",  "documentBaseUri" : "file:/export/repository/project/114/document/44472/source/",  "isLastSegment" : false } ], 
+      "TagsetDescription" : [
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "name" : "UD Universal Dependencies",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Entities",  "name" : "Entity - mention level types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Eventclauses",  "name" : "Event - tense",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Eventsarguments",  "name" : "eventdna_argument_entities_(auto)",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Namedentities",  "name" : "NE types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.EntitiesLETSpreanno",  "name" : "Named entity - types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "name" : "Operation",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "name" : "UD Universal POS tags",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Polaritytriggers",  "name" : "Polarity",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.SurfaceForm",  "name" : "Named Entity tags",  "input" : false } ], 
+      "Sentence" : [
+        {"sofa" : 12,  "end" : 49 }, 
+        {"sofa" : 12,  "begin" : 51,  "end" : 139 } ], 
+      "Token" : [
+        {"sofa" : 12,  "end" : 8 }, 
+        {"sofa" : 12,  "begin" : 9,  "end" : 17 }, 
+        {"sofa" : 12,  "begin" : 18,  "end" : 32 }, 
+        {"sofa" : 12,  "begin" : 33,  "end" : 35 }, 
+        {"sofa" : 12,  "begin" : 36,  "end" : 40 }, 
+        {"sofa" : 12,  "begin" : 41,  "end" : 49 }, 
+        {"sofa" : 12,  "begin" : 51,  "end" : 59 }, 
+        {"sofa" : 12,  "begin" : 60,  "end" : 71 }, 
+        {"sofa" : 12,  "begin" : 72,  "end" : 74 }, 
+        {"sofa" : 12,  "begin" : 75,  "end" : 79 }, 
+        {"sofa" : 12,  "begin" : 80,  "end" : 93 }, 
+        {"sofa" : 12,  "begin" : 94,  "end" : 102 }, 
+        {"sofa" : 12,  "begin" : 103,  "end" : 106 }, 
+        {"sofa" : 12,  "begin" : 107,  "end" : 117 }, 
+        {"sofa" : 12,  "begin" : 118,  "end" : 122 }, 
+        {"sofa" : 12,  "begin" : 123,  "end" : 137 }, 
+        {"sofa" : 12,  "begin" : 138,  "end" : 139 } ], 
+      "Eventclauses" : [
+        {"sofa" : 12,  "end" : 49,  "EventPolarity" : "EVE neutral",  "Prominence" : "Main" }, 
+        {"sofa" : 12,  "begin" : 51,  "end" : 137,  "EventPolarity" : "EVE neutral",  "Prominence" : "Main" } ] } }, 
+  "_referenced_fss" : {
+    "12" : {"_type" : "Sofa",  "sofaNum" : 1,  "sofaID" : "_InitialView",  "mimeType" : "text",  "sofaString" : "Maldegem herdenkt Wapenstilstand op vier momenten\n Maldegem organiseert op vier verschillende plaatsen een herdenking voor Wapenstilstand .\n " } } }

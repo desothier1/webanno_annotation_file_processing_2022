@@ -1,0 +1,82 @@
+{"_context" : {
+    "_types" : {
+      "DocumentMetaData" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Eventclauses" : {
+        "_feature_types" : {"sofa" : "_ref",  "Arguments" : "_ref",  "Polarity" : "_ref",  "PolarityTrigger" : "_ref",  "Sameclause" : "_ref" } }, 
+      "Sentence" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Sofa" : {
+        "_feature_types" : {"sofaArray" : "_ref" } }, 
+      "TagsetDescription" : {
+        "_feature_types" : {"sofa" : "_ref",  "tags" : "_ref" } }, 
+      "Token" : {
+        "_feature_types" : {"sofa" : "_ref",  "parent" : "_ref",  "lemma" : "_ref",  "stem" : "_ref",  "pos" : "_ref",  "morph" : "_ref",  "form" : "_ref" } }, 
+      "DocumentAnnotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentMetaData" ] }, 
+      "Annotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentAnnotation",  "Eventclauses",  "Sentence",  "TagsetDescription",  "Token" ] }, 
+      "AnnotationBase" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Annotation" ] }, 
+      "TOP" : {
+        "_subtypes" : ["AnnotationBase",  "Sofa" ] } } }, 
+  "_views" : {
+    "_InitialView" : {
+      "DocumentMetaData" : [
+        {"sofa" : 12,  "end" : 238,  "language" : "x-unspecified",  "documentTitle" : "1f82c62.txt",  "documentId" : "WoutBoven",  "documentUri" : "file:/export/repository/project/114/document/44479/source/WoutBoven",  "collectionId" : "file:/export/repository/project/114/document/44479/source/",  "documentBaseUri" : "file:/export/repository/project/114/document/44479/source/",  "isLastSegment" : false } ], 
+      "TagsetDescription" : [
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "name" : "UD Universal Dependencies",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Entities",  "name" : "Entity - mention level types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Eventclauses",  "name" : "Event - tense",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Eventsarguments",  "name" : "eventdna_argument_entities_(auto)",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Namedentities",  "name" : "NE types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.EntitiesLETSpreanno",  "name" : "Named entity - types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "name" : "Operation",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "name" : "UD Universal POS tags",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Polaritytriggers",  "name" : "Polarity",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.SurfaceForm",  "name" : "Named Entity tags",  "input" : false } ], 
+      "Sentence" : [
+        {"sofa" : 12,  "end" : 54 }, 
+        {"sofa" : 12,  "begin" : 56,  "end" : 177 }, 
+        {"sofa" : 12,  "begin" : 179,  "end" : 236 } ], 
+      "Token" : [
+        {"sofa" : 12,  "end" : 15 }, 
+        {"sofa" : 12,  "begin" : 16,  "end" : 21 }, 
+        {"sofa" : 12,  "begin" : 22,  "end" : 34 }, 
+        {"sofa" : 12,  "begin" : 35,  "end" : 39 }, 
+        {"sofa" : 12,  "begin" : 40,  "end" : 47 }, 
+        {"sofa" : 12,  "begin" : 48,  "end" : 54 }, 
+        {"sofa" : 12,  "begin" : 56,  "end" : 59 }, 
+        {"sofa" : 12,  "begin" : 60,  "end" : 75 }, 
+        {"sofa" : 12,  "begin" : 76,  "end" : 79 }, 
+        {"sofa" : 12,  "begin" : 80,  "end" : 90 }, 
+        {"sofa" : 12,  "begin" : 91,  "end" : 96 }, 
+        {"sofa" : 12,  "begin" : 97,  "end" : 100 }, 
+        {"sofa" : 12,  "begin" : 101,  "end" : 113 }, 
+        {"sofa" : 12,  "begin" : 114,  "end" : 121 }, 
+        {"sofa" : 12,  "begin" : 122,  "end" : 126 }, 
+        {"sofa" : 12,  "begin" : 127,  "end" : 137 }, 
+        {"sofa" : 12,  "begin" : 138,  "end" : 141 }, 
+        {"sofa" : 12,  "begin" : 142,  "end" : 145 }, 
+        {"sofa" : 12,  "begin" : 146,  "end" : 156 }, 
+        {"sofa" : 12,  "begin" : 157,  "end" : 160 }, 
+        {"sofa" : 12,  "begin" : 161,  "end" : 168 }, 
+        {"sofa" : 12,  "begin" : 169,  "end" : 175 }, 
+        {"sofa" : 12,  "begin" : 176,  "end" : 177 }, 
+        {"sofa" : 12,  "begin" : 179,  "end" : 181 }, 
+        {"sofa" : 12,  "begin" : 182,  "end" : 191 }, 
+        {"sofa" : 12,  "begin" : 192,  "end" : 210 }, 
+        {"sofa" : 12,  "begin" : 211,  "end" : 217 }, 
+        {"sofa" : 12,  "begin" : 218,  "end" : 222 }, 
+        {"sofa" : 12,  "begin" : 223,  "end" : 229 }, 
+        {"sofa" : 12,  "begin" : 230,  "end" : 234 }, 
+        {"sofa" : 12,  "begin" : 235,  "end" : 236 } ], 
+      "Eventclauses" : [
+        {"sofa" : 12,  "end" : 54,  "EventPolarity" : "EVE neutral",  "Prominence" : "Main" }, 
+        {"sofa" : 12,  "begin" : 56,  "end" : 175,  "EventPolarity" : "EVE neutral",  "Prominence" : "Main" }, 
+        {"sofa" : 12,  "begin" : 179,  "end" : 234,  "EventPolarity" : "EVE negative",  "Prominence" : "Background" } ] } }, 
+  "_referenced_fss" : {
+    "12" : {"_type" : "Sofa",  "sofaNum" : 1,  "sofaID" : "_InitialView",  "mimeType" : "text",  "sofaString" : "Gemeentebestuur opent rouwregister voor Leonard Segers\n Het gemeentebestuur van Buggenhout heeft een rouwregister geopend naar aanleiding van het overlijden van Leonard Segers .\n De voormalig gemeentesecretaris stierf eind vorige week .\n " } } }

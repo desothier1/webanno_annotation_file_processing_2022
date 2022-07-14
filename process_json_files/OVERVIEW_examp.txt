@@ -1,0 +1,41 @@
+3db6526	event_1	Main	EVE neutral	sentence_1	Gemeenteraad opnieuw digitaal georganiseerd
+3db6526	event_2	Background	EVE negative	sentence_2	stijgende coronacijfers
+3db6526	event_3	Main	EVE neutral	sentence_2	de gemeenteraad van 24 november opnieuw via een videoverbinding georganiseerd worden
+2c35af6	event_1	Main	EVE positive	sentence_1	Na coronajaar krijgen 4 Gentenaars een Handsje
+2c35af6	event_2	Background	EVE positive	sentence_3	Na een saai coronajaar kunnen ook zij eindelijk weer hun trofee uitreiken
+2c35af6	event_3	Main	EVE positive	sentence_3	een Handsje voor verdienstelijke Gentenaars die hun stad of hun dialect op de kaart zetten
+2c35af6	event_4	Main	EVE neutral	sentence_4	Voor de 38ste editie zijn vier - in plaats van drie - laureaten uitgekozen
+2c35af6	event_5	Background	EVE neutral	sentence_5	De uitreiking vindt plaat in de tempel van de Gentse volkscultuur
+2c35af6	sentence_2	None	None	sentence_2	De Gentsche Sosseteit staat te popelen .
+1f82c62	event_1	Main	EVE neutral	sentence_1	Gemeentebestuur opent rouwregister voor Leonard Segers
+1f82c62	event_2	Main	EVE neutral	sentence_2	Het gemeentebestuur van Buggenhout heeft een rouwregister geopend naar aanleiding van het overlijden van Leonard Segers
+1f82c62	event_3	Background	EVE negative	sentence_3	De voormalig gemeentesecretaris stierf eind vorige week
+1ffaeac	event_1	Main	EVE neutral	sentence_1	Gemeente vraagt inwoners Belgische vlag uit te hangen voor Wapenstilstand
+1ffaeac	event_2	Background	EVE positive	sentence_2	donderdag 11 november vindt de jaarlijkse herdenking van Wapenstilstand plaats
+1ffaeac	event_3	Main	EVE neutral	sentence_3	De bewoners , in het bijzonder die van het marktplein , worden daarom gevraagd hun huizen te bevlaggen
+3f1e325	event_1	Main	EVE neutral	sentence_1	Maldegem herdenkt Wapenstilstand op vier momenten
+3f1e325	event_2	Main	EVE neutral	sentence_2	Maldegem organiseert op vier verschillende plaatsen een herdenking voor Wapenstilstand
+2f0be90	event_1	Background	EVE positive	sentence_1	Gert en James schieten kandidaat ter hulp
+2f0be90	event_2	Background	EVE positive	sentence_2	had zich goed voorbereid ,
+2f0be90	event_3	Background	EVE negative	sentence_2	eigenlijk niet echt een partij voor Slimste Mens - geweld
+2f0be90	event_4	Background	EVE positive	sentence_3	- Lubach . Al had hij toch even de overwinning
+2f0be90	event_5	Background	EVE negative	sentence_6	James Cooke . Zelfs aandoenlijke steun en aanmoedigingen van Cooke konden hem - net
+2f0be90	event_6	Background	EVE positive	sentence_7	niet redden . Wat volgde was een lief I Love You vanuit
+2f0be90	event_7	Background	EVE positive	sentence_8	coulissen geroepen . Arjen Lubach was
+2f0be90	sentence_4	None	None	sentence_4	op zak .
+2f0be90	sentence_5	None	None	sentence_5	Niet dus . Niks aan te doen voor Dorian Liveyns , sinds afgelopen zomer echtgenoot van
+2ccf227	event_1	Main	EVE negative	sentence_1	Meneer Jacques van Edelweiss Wakken overleden
+2ccf227	event_2	Background	EVE negative	sentence_1	Wasserij brandde twee keer af
+2ccf227	event_3	Background	EVE positive	sentence_1	hij vond telkens de moed om alles herop te bouwen
+2ccf227	event_4	Background	EVE negative	sentence_2	Wakken verliest een van haar bekendste ondernemers
+2ccf227	event_5	Main	EVE negative	sentence_3	Jacques Vandeputte van wasserij Edelweiss , in de volksmond gekend als meneer Jacques , overleed zondag
+2ccf227	event_6	Background	EVE neutral	sentence_4	Hij kwam nog elke dag een bezoekje brengen aan zijn bedrijf
+3fcd241	event_1	Background	EVE negative	sentence_1	Sinterklaas is zijn helpers kwijt
+3fcd241	event_2	Main	EVE neutral	sentence_1	Bornemse bib stuurt kinderen op Pietjeszoektocht
+3fcd241	event_3	Background	EVE negative	sentence_2	Sinterklaas heeft een groot probleem
+3fcd241	event_4	Background	EVE negative	sentence_2	hij is zijn helpers kwijt
+3fcd241	event_5	Main	EVE positive	sentence_3	De Bornemse bibliotheek gaat de goedheiligman helpen
+3fcd241	event_6	Main	EVE neutral	sentence_3	organiseert drie weken lang een Pietjeszoektocht
+2c089e2	event_1	Main	EVE positive	sentence_1	Nederlandse speurders leggen beslag op meer dan 25 miljoen aan cryptovaluta
+2c089e2	event_2	Main	EVE positive	sentence_2	Het Nederlandse Openbaar Ministerie , de Landelijke Recherche en de financiële opsporingsdienst FIOD hebben de afgelopen maanden beslag gelegd op meer dan 25 miljoen euro aan cryptovaluta
+2c089e2	event_3	Main	EVE positive	sentence_3	De Nederlandse diensten hebben van tientallen verdachten de zogenaamde wallets , digitale portemonnees , van onder meer bitcoin en ethereum in beslag genomen

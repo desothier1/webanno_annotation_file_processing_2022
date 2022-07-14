@@ -1,0 +1,92 @@
+{"_context" : {
+    "_types" : {
+      "DocumentMetaData" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Eventclauses" : {
+        "_feature_types" : {"sofa" : "_ref",  "Arguments" : "_ref",  "Polarity" : "_ref",  "PolarityTrigger" : "_ref",  "Sameclause" : "_ref" } }, 
+      "Sentence" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Sofa" : {
+        "_feature_types" : {"sofaArray" : "_ref" } }, 
+      "TagsetDescription" : {
+        "_feature_types" : {"sofa" : "_ref",  "tags" : "_ref" } }, 
+      "Token" : {
+        "_feature_types" : {"sofa" : "_ref",  "parent" : "_ref",  "lemma" : "_ref",  "stem" : "_ref",  "pos" : "_ref",  "morph" : "_ref",  "form" : "_ref" } }, 
+      "DocumentAnnotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentMetaData" ] }, 
+      "Annotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentAnnotation",  "Eventclauses",  "Sentence",  "TagsetDescription",  "Token" ] }, 
+      "AnnotationBase" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Annotation" ] }, 
+      "TOP" : {
+        "_subtypes" : ["AnnotationBase",  "Sofa" ] } } }, 
+  "_views" : {
+    "_InitialView" : {
+      "DocumentMetaData" : [
+        {"sofa" : 12,  "end" : 266,  "language" : "x-unspecified",  "documentTitle" : "1ffaeac.txt",  "documentId" : "WoutBoven",  "documentUri" : "file:/export/repository/project/114/document/44478/source/WoutBoven",  "collectionId" : "file:/export/repository/project/114/document/44478/source/",  "documentBaseUri" : "file:/export/repository/project/114/document/44478/source/",  "isLastSegment" : false } ], 
+      "TagsetDescription" : [
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "name" : "UD Universal Dependencies",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Entities",  "name" : "Entity - mention level types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Eventclauses",  "name" : "Event - tense",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Eventsarguments",  "name" : "eventdna_argument_entities_(auto)",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Namedentities",  "name" : "NE types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.EntitiesLETSpreanno",  "name" : "Named entity - types",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "name" : "Operation",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "name" : "UD Universal POS tags",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "webanno.custom.Polaritytriggers",  "name" : "Polarity",  "input" : false }, 
+        {"sofa" : 12,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.SurfaceForm",  "name" : "Named Entity tags",  "input" : false } ], 
+      "Sentence" : [
+        {"sofa" : 12,  "end" : 73 }, 
+        {"sofa" : 12,  "begin" : 75,  "end" : 158 }, 
+        {"sofa" : 12,  "begin" : 160,  "end" : 264 } ], 
+      "Token" : [
+        {"sofa" : 12,  "end" : 8 }, 
+        {"sofa" : 12,  "begin" : 9,  "end" : 15 }, 
+        {"sofa" : 12,  "begin" : 16,  "end" : 24 }, 
+        {"sofa" : 12,  "begin" : 25,  "end" : 34 }, 
+        {"sofa" : 12,  "begin" : 35,  "end" : 39 }, 
+        {"sofa" : 12,  "begin" : 40,  "end" : 43 }, 
+        {"sofa" : 12,  "begin" : 44,  "end" : 46 }, 
+        {"sofa" : 12,  "begin" : 47,  "end" : 53 }, 
+        {"sofa" : 12,  "begin" : 54,  "end" : 58 }, 
+        {"sofa" : 12,  "begin" : 59,  "end" : 73 }, 
+        {"sofa" : 12,  "begin" : 75,  "end" : 77 }, 
+        {"sofa" : 12,  "begin" : 78,  "end" : 87 }, 
+        {"sofa" : 12,  "begin" : 88,  "end" : 90 }, 
+        {"sofa" : 12,  "begin" : 91,  "end" : 99 }, 
+        {"sofa" : 12,  "begin" : 100,  "end" : 105 }, 
+        {"sofa" : 12,  "begin" : 106,  "end" : 108 }, 
+        {"sofa" : 12,  "begin" : 109,  "end" : 119 }, 
+        {"sofa" : 12,  "begin" : 120,  "end" : 130 }, 
+        {"sofa" : 12,  "begin" : 131,  "end" : 134 }, 
+        {"sofa" : 12,  "begin" : 135,  "end" : 149 }, 
+        {"sofa" : 12,  "begin" : 150,  "end" : 156 }, 
+        {"sofa" : 12,  "begin" : 157,  "end" : 158 }, 
+        {"sofa" : 12,  "begin" : 160,  "end" : 162 }, 
+        {"sofa" : 12,  "begin" : 163,  "end" : 171 }, 
+        {"sofa" : 12,  "begin" : 172,  "end" : 173 }, 
+        {"sofa" : 12,  "begin" : 174,  "end" : 176 }, 
+        {"sofa" : 12,  "begin" : 177,  "end" : 180 }, 
+        {"sofa" : 12,  "begin" : 181,  "end" : 190 }, 
+        {"sofa" : 12,  "begin" : 191,  "end" : 194 }, 
+        {"sofa" : 12,  "begin" : 195,  "end" : 198 }, 
+        {"sofa" : 12,  "begin" : 199,  "end" : 202 }, 
+        {"sofa" : 12,  "begin" : 203,  "end" : 213 }, 
+        {"sofa" : 12,  "begin" : 214,  "end" : 215 }, 
+        {"sofa" : 12,  "begin" : 216,  "end" : 222 }, 
+        {"sofa" : 12,  "begin" : 223,  "end" : 229 }, 
+        {"sofa" : 12,  "begin" : 230,  "end" : 238 }, 
+        {"sofa" : 12,  "begin" : 239,  "end" : 242 }, 
+        {"sofa" : 12,  "begin" : 243,  "end" : 249 }, 
+        {"sofa" : 12,  "begin" : 250,  "end" : 252 }, 
+        {"sofa" : 12,  "begin" : 253,  "end" : 262 }, 
+        {"sofa" : 12,  "begin" : 263,  "end" : 264 } ], 
+      "Eventclauses" : [
+        {"sofa" : 12,  "end" : 73,  "EventPolarity" : "EVE neutral",  "Prominence" : "Main" }, 
+        {"sofa" : 12,  "begin" : 78,  "end" : 156,  "EventPolarity" : "EVE positive",  "Prominence" : "Background" }, 
+        {"sofa" : 12,  "begin" : 160,  "end" : 262,  "EventPolarity" : "EVE neutral",  "Prominence" : "Main" } ] } }, 
+  "_referenced_fss" : {
+    "12" : {"_type" : "Sofa",  "sofaNum" : 1,  "sofaID" : "_InitialView",  "mimeType" : "text",  "sofaString" : "Gemeente vraagt inwoners Belgische vlag uit te hangen voor Wapenstilstand\n Op donderdag 11 november vindt de jaarlijkse herdenking van Wapenstilstand plaats .\n De bewoners , in het bijzonder die van het marktplein , worden daarom gevraagd hun huizen te bevlaggen .\n " } } }
