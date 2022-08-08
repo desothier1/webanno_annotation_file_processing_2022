@@ -1,4 +1,4 @@
-# webanno_annotation_file_processing_2022
+# webanno annotation file processing 2022 : annotation of events, sentiment, topics
 
 ## processing of input json file to separate text files for webanno input
 
@@ -62,3 +62,20 @@ folder process_json with subfolders:
    
 4. Folder extracted_annotations_out_example :
    - 10 example output files in readable format
+   
+## file processing annotation of IPTC topic classes and evaluation of topic prediction
+folder IPTC_topic_classification
+
+1. prepare annotation template from input file sample.json
+  - run extractfromjson_compl_doc.py
+    - with syntax : python extractfromjson_compl_doc.py
+     - input file sample.json is read, and output file _ALLFILES_TITLE_LEAD_CONTENT.txt can be saved as excel file IPTC_annotations.xlsx 
+2. 17 topic classes (level 1) as specified in https://www.iptc.org/std/NewsCodes/treeview/mediatopic/mediatopic-en-GB.html
+are annotated for file IPTC_annotations.xlsx
+  - For each of the 250 documents in the file, the relevant topic labels are ranked according to priority, by assigning those a number 1-17.
+    - The resulting annotated file is IPTC_annotations_annotated.xlsx
+3. Evaluation of IPTC topic classification performances (calculation of Precision - Recall - F score), comparing the annotated reference data and predictions
+  - subfolder : calcul_F1
+  - IPTC_ref_hyp_format.py converts (reference data) REFDATA.txt (exported .txt file from IPTC_annotations_annotated.xlsx)  and (predictions) sample.json respectively to REF_out.txt and HYP_out.txt
+  - calcul_prom.py reads REF_out.txt and HYP_out.txt and generates Precison, Recall and F scores.
+  
